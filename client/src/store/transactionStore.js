@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://trackit-backend-f9cr.onrender.com/api/'; // Replace with your backend URL
+const API_BASE_URL = 'https://trackit-backend-f9cr.onrender.com/api/';
 
 const getAuthHeader = () => {
     const user = JSON.parse(localStorage.getItem('user'));

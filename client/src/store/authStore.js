@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'https://trackit-backend-f9cr.onrender.com/api/auth/'; // Replace with your backend URL
+const API_URL = 'https://trackit-backend-f9cr.onrender.com/api/auth/';
 
 export const useAuthStore = create((set) => ({
     user: JSON.parse(localStorage.getItem('user')) || null,
