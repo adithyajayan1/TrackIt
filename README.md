@@ -1,6 +1,8 @@
 # TrackIt:
 TrackIt is a full-stack web application designed to help users efficiently manage their income and expenses. Built with the MERN stack, it offers secure user authentication, robust transaction tracking, and intuitive data visualization, all wrapped in a sleek dark-themed user interface.
 
+[Live Demo](https://track-it-jet-nu.vercel.app/)
+
 ## 🚀 Features
 User Authentication: Secure registration and login using JSON Web Tokens (JWT).
 
